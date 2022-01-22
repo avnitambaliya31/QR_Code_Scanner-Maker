@@ -32,15 +32,6 @@ class _QRCodeScannerState extends State<QRCodeScanner> {
 
   bool isFlashOn = false;
 
-  @override
-  void didChangeDependencies() {
-    // TODO: implement didChangeDependencies
-    super.didChangeDependencies();
-    // if (barcode != null) {
-    //   Navigator.of(context)
-    //       .push(MaterialPageRoute(builder: (_) => QRCodeMaker()));
-    // }
-  }
 
   @override
   Widget build(BuildContext context) {
