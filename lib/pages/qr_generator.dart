@@ -27,14 +27,7 @@ class _QRGeneratorState extends State<QRGenerator> {
                     .headline6!
                     .copyWith(color: Colors.black, fontWeight: FontWeight.bold),
               ))),
-          Padding(
-            padding: const EdgeInsets.symmetric(vertical: 30.0),
-            child: QrImage(
-              data: widget.data!.toString(),
-              backgroundColor: Colors.white,
-              size: 300,
-            ),
-          ),
+         
           Text(widget.data!.toString())
         ],
       ),
